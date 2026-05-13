@@ -6,7 +6,7 @@ Não use a interface de 'Implementation Plan' da IDE. Escreva todas as tarefas o
 
 1. Verifique se existe um arquivo `CURRENT_TASK.md` ativo.
 2. Se houver algo em andamento, pergunte se devo pausar ou concluir antes de seguir.
-3. Se estiver livre, analise o pedido do usuário e consulte o `.agent/history/` para contexto.
+3. Se estiver livre, analise o pedido do usuário e consulte o `.agents/history/` para contexto.
 4. Crie o arquivo `CURRENT_TASK.md` com:
    - Checklist de implementação.
    - Arquivos que serão afetados.
