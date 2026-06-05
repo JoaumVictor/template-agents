@@ -35,4 +35,13 @@ trigger: always_on
   - `docs`: Alteração apenas em documentação (ex: README).
   - `style`: Mudanças de formatação que não afetam o código.
   - `refactor`: Mudança de código que não corrige bug nem adiciona feature.
+  - `test`: Adição ou correção de testes.
   - `chore`: Atualização de tarefas de build, pacotes, etc.
+
+## 🎯 Escopo e Contenção de Mudanças
+
+- **Mínimo diff necessário:** Prefira editar um arquivo existente a criar um novo. Só crie arquivo novo quando não existe alternativa.
+- **Sem over-engineering:** Não crie abstrações, helpers ou camadas extras para operações que acontecem uma única vez.
+- **Sem melhorias não solicitadas:** Não refatore código que não foi pedido. Se identificar algo ruim, mencione mas não altere sem aprovação.
+- **Sem dependências desnecessárias:** Não adicione bibliotecas para resolver algo que já pode ser feito com o que existe no projeto.
+- **Escopo do commit:** Cada commit deve fazer uma coisa. Se a tarefa cresceu, quebre em commits menores.
